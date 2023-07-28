@@ -27,7 +27,7 @@ readFileLines path = do
 
 main :: IO ()
 main = do
-    let filePath = "data-01.txt"
+    let filePath = "data/01-calories.txt"
     contents <- readFileLines filePath
     let calories = sumBlocks contents
 
